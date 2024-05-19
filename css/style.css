@@ -533,17 +533,15 @@ a:focus {
     }
 }
 
-
-/*******************************/
-/******* Section Header ********/
-/*******************************/
+/****************************************/
+/******* All Section Header CSS  ********/
+/****************************************/
 .section-header {
     position: relative;
     max-width: 600px;
     margin: 0 auto;
     margin-bottom: 45px;
 }
-
 .section-header p {
     margin-bottom: 5px;
     position: relative;
@@ -564,9 +562,12 @@ a:focus {
     }
 }
 
+/************** Section Header End ************/
+
+
 
 /*******************************/
-/********** About CSS **********/
+/********** About CSS **********/  /* This Part of Contain Edit By [ Sharmin Sultana Sumi ] */
 /*******************************/
 .about {
     position: relative;
@@ -647,8 +648,11 @@ a:focus {
 }
 
 
+/************* End of The About ****************/
+
+
 /*******************************/
-/********* Service CSS *********/
+/********* Service CSS *********/  /************ This Part is Design By [Sharmin Sultana Sumi] ****/
 /*******************************/
 .service {
     position: relative;
@@ -719,10 +723,11 @@ a:focus {
     background: #1d2434;
     border-color: #1d2434;
 }
+/************* End of Part Servise CSS *********************/
 
 
 /*******************************/
-/********* Pricing CSS *********/
+/********* Shop CSS *********/  /* This part contain edit by [ Rakibul islam Khan ] */
 /*******************************/
 .price {
     position: relative;
@@ -790,9 +795,11 @@ a:focus {
     color: #333333;
 }
 
+/*********** End of shop CSS ***************/
+
 
 /*******************************/
-/*********** Team CSS **********/
+/*********** Team CSS **********/  /********** This part contain by  [Sharmin Sultana Sumi ] ************/
 /*******************************/
 .team {
     position: relative;
@@ -855,317 +862,7 @@ a:focus {
 
 
 /*******************************/
-/******* Testimonial CSS *******/
-/*******************************/
-.testimonial {
-    position: relative;
-    margin: 45px 0;
-    padding: 120px 0;
-    background: linear-gradient(rgba(29, 36, 52, 1), rgba(29, 36, 52, .5), rgba(29, 36, 52, 1)), url(../img/testimonial-bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.testimonial .container {
-    max-width: 700px;
-}
-
-.testimonial .testimonials-carousel {
-    position: relative;
-    width: 100%;
-}
-
-.testimonial .testimonial-item {
-    position: relative;
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    overflow: hidden;
-}
-
-.testimonial .testimonial-item img {
-    width: 60px;
-    border-radius: 60px;
-    margin-bottom: 25px;
-}
-
-.testimonial .testimonial-item p {
-    color: #ffffff;
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
-.testimonial .testimonial-item h2 {
-    color: #D5B981;
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 5px;
-}
-
-.testimonial .testimonial-item h3 {
-    color: #999999;
-    font-size: 16px;
-    font-weight: 300;
-    margin: 0;
-}
-
-.testimonial .owl-nav {
-    width: 135px;
-    margin-top: 45px;
-    display: flex;
-}
-
-.testimonial .owl-nav .owl-prev,
-.testimonial .owl-nav .owl-next {
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #D5B981;
-    background: #1d2434;
-    font-size: 22px;
-    transition: .3s;
-}
-
-.testimonial .owl-nav .owl-next {
-    margin-left: 15px;
-}
-
-.testimonial .owl-nav .owl-prev:hover,
-.testimonial .owl-nav .owl-next:hover {
-    color: #1d2434;
-    background: #D5B981;
-}
-
-
-/*******************************/
-/*********** Blog CSS **********/
-/*******************************/
-.blog {
-    position: relative;
-    width: 100%;
-    padding: 45px 0;
-}
-
-.blog .blog-carousel {
-    position: relative;
-    width: calc(100% + 30px);
-    left: -15px;
-    right: -15px;
-}
-
-.blog .blog-item {
-    position: relative;
-    margin: 0 15px;
-    background: rgba(29, 36, 52, .04);
-    overflow: hidden;
-}
-
-.blog .blog-page .blog-item {
-    margin: 0 0 30px 0;
-}
-
-.blog .blog-img {
-    position: relative;
-    width: 100%;
-}
-
-.blog .blog-img::after {
-    position: absolute;
-    content: "";
-    top: 15px;
-    right: 15px;
-    bottom: 15px;
-    left: 15px;
-    background: transparent;
-    border: 1px solid #ffffff;
-    z-index: 1;
-}
-
-.blog .blog-img img {
-    width: 100%;
-}
-
-.blog .blog-meta {
-    position: relative;
-    padding: 20px 30px 12px 30px;
-}
-
-.blog .blog-meta * {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-    font-weight: 300;
-    color: #797979;
-}
-
-.blog .blog-meta i {
-    margin: 0 2px 0 10px;
-}
-
-.blog .blog-meta i:first-child {
-    margin-left: 0;
-}
-
-.blog .blog-text {
-    position: relative;
-    padding: 0 30px 30px 30px;
-}
-
-.blog .blog-text h2 {
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.blog .blog-text p {
-    margin-bottom: 10px;
-}
-
-.blog .blog-item a.btn {
-    padding: 0;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #1d2434;
-    transition: .3s;
-}
-
-.blog .blog-item a.btn i {
-    margin-left: 5px;
-}
-
-.blog .blog-item a.btn:hover {
-    color: #D5B981;
-}
-
-.blog .owl-nav {
-    width: 150px;
-    margin: 32px auto 0 auto;
-    display: flex;
-}
-
-.blog .owl-nav .owl-prev,
-.blog .owl-nav .owl-next {
-    margin-left: 15px;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #D5B981;
-    background: #1d2434;
-    font-size: 22px;
-    transition: .3s;
-}
-
-.blog .owl-nav .owl-prev:hover,
-.blog .owl-nav .owl-next:hover {
-    color: #1d2434;
-    background: #D5B981;
-}
-
-.blog .pagination .page-link {
-    color: #1d2434;
-    border-radius: 0;
-    border-color: #1d2434;
-}
-
-.blog .pagination .page-link:hover,
-.blog .pagination .page-item.active .page-link {
-    color: #D5B981;
-    background: #1d2434;
-}
-
-.blog .pagination .disabled .page-link {
-    color: #999999;
-}
-
-
-/*******************************/
-/******** Portfolio CSS ********/
-/*******************************/
-.portfolio {
-    position: relative;
-    padding: 45px 0 15px 0;
-    background: #ffffff;
-}
-
-.portfolio #portfolio-flters {
-    padding: 0;
-    margin: -15px 0 25px 0;
-    list-style: none;
-    font-size: 0;
-    text-align: center;
-}
-
-.portfolio #portfolio-flters li {
-    cursor: pointer;
-    display: inline-block;
-    margin: 5px;
-    padding: 8px 15px;
-    color: #1d2434;
-    font-size: 14px;
-    font-weight: 600;
-    border-radius: 0;
-    background: none;
-    border: 2px solid #1d2434;
-    transition: .3s;
-}
-
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
-    background: #1d2434;
-    color: #D5B981;
-}
-
-.portfolio .portfolio-item {
-    position: relative;
-    margin-bottom: 30px;
-    overflow: hidden;
-    transition: .3s;
-}
-
-.portfolio .portfolio-item:hover {
-    margin-top: -10px;
-}
-
-.portfolio .portfolio-wrap {
-    position: relative;
-    width: 100%;
-}
-
-.portfolio .portfolio-wrap a::after {
-    position: absolute;
-    content: "";
-    top: 30px;
-    right: 30px;
-    bottom: 30px;
-    left: 30px;
-    background: transparent;
-    border: 1px solid #F6F6F7;
-    transition: .3s;
-    z-index: 1;
-}
-
-.portfolio .portfolio-wrap:hover a::after {
-    border-color: #D5B981;
-}
-
-.portfolio img {
-    position: relative;
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover;
-}
-
-
-/*******************************/
-/********* Contact CSS *********/
+/********* Contact CSS *********/  /************** This part complete by [Tanvir Rahman Bipul] ********/
 /*******************************/
 .contact {
     position: relative;
@@ -1235,70 +932,97 @@ a:focus {
     }
 }
 
+/*******************************/
+/******* Dopctor Part CSS *******/
+/*******************************/
+/*******************************/
+.doctor {
+    position: relative;
+    margin: 45px 0;
+    padding: 120px 0;
+    background: linear-gradient(rgba(29, 36, 52, 1), rgba(29, 36, 52, .5), rgba(29, 36, 52, 1)), url(../img/testimonial-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-/*******************************/
-/******* Single Page CSS *******/
-/*******************************/
-.single {
+.doctor .container {
+    max-width: 700px;
+}
+
+.doctor .testimonials-carousel {
     position: relative;
     width: 100%;
-    padding: 45px 0 65px 0;
 }
 
-.single img {
+.doctor .doctor-item {
+    position: relative;
     width: 100%;
-    margin: 0 0 25px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
 }
-
-.single .table,
-.single .list-group {
+/********* Doctor Image Part **************/
+.doctor .doctor-item img {
+    width: 80px;
+    border-radius: 70px;
     margin-bottom: 30px;
 }
 
-.single .ul-group {
-    padding: 0;
-    list-style: none;
+.doctor .doctor-item p {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
-.single .ul-group li {
-    margin-left: 2px;
+.doctor .doctor-item h2 {
+    color: #D5B981;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
 }
 
-.single .ul-group li::before {
-    position: relative;
-    content: "\f0da";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    margin-right: 10px;
+.doctor .doctor-item h3 {
+    color: #999999;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
 }
 
-.single .ol-group {
-    padding-left: 18px;
-}
+
+/************ Doctor Part CSS End *********************/
+
 
 
 
 /*******************************/
 /********* Footer CSS **********/
 /*******************************/
+
+/******* Color Charge and position ***********/
 .footer {
     position: relative;
     margin-top: 45px;
     padding-top: 90px;
     background: #1d2434;
 }
-
-.footer .footer-contact,
-.footer .footer-link,
-.footer .footer-newsletter {
+/******** Phone - Location - Massage ******/
+.footer .footer-contact,.footer .footer-link,.footer .footer-newsletter {
     position: relative;
     margin-bottom: 45px;
     color: #999999;
 }
-
-.footer .footer-contact h2,
-.footer .footer-link h2,
-.footer .footer-newsletter h2{
+/******** Haed section Footer part **********/
+.footer .footer-contact h2,.footer .footer-link h2,.footer .footer-newsletter h2{
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #D5B981;
+}
+.footer .footer-contact h2,.footer .footer-link h2,.footer .footer-newsletter h2{
     position: relative;
     margin-bottom: 30px;
     font-size: 22px;
@@ -1321,6 +1045,7 @@ a:focus {
     margin-right: 10px;
 }
 
+/********* Quick Link Hover Effect **********/
 .footer .footer-link a:hover {
     color: #D5B981;
     letter-spacing: 1px;
@@ -1363,7 +1088,7 @@ a:focus {
     border: 2px solid #1d2434;
     border-radius: 0;
 }
-
+/*********** News Latter Submit Button CSS ***********/
 .footer .footer-newsletter .btn {
     position: absolute;
     top: 8px;
@@ -1378,12 +1103,14 @@ a:focus {
     border: 2px solid #1d2434;
     transition: .3s;
 }
-
+/************ Button Hover Effect CSS ***************/
 .footer .footer-newsletter .btn:hover {
     color: #D5B981;
     background: #1d2434;
 }
+/*********** End part **********/
 
+/********** Copyright And Design By CSS Hover ettect and color combination ***********/
 .footer .copyright {
     padding: 0 30px;
 }
@@ -1420,19 +1147,6 @@ a:focus {
     }
 }
 
+/******** End of Part ************/ 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/************ CSS File end ***********/
