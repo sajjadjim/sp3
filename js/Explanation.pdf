@@ -1,0 +1,44 @@
+Certainly! Here's a simplified explanation of the code:
+
+Purpose
+The purpose of this code is to define custom easing functions for animations in jQuery. Easing functions control the speed of an animation, making it more natural by gradually accelerating or decelerating.
+
+Breakdown
+IIFE (Immediately Invoked Function Expression):
+
+(function($) { ... })(jQuery);
+This is a self-invoking function that passes jQuery as $ to keep the code modular and avoid conflicts.
+Bounce Easing Helper Function:
+
+function bounceEase(x) { ... }
+This function calculates the bounce effect based on the input x, which ranges from 0 to 1.
+It uses mathematical conditions to simulate the bounce effect.
+Check for jQuery Easing:
+
+if (typeof $.easing !== "undefined") { ... }
+This ensures that $.easing is defined before extending it.
+It also sets up a fallback for the swing easing function.
+
+Extend jQuery Easing:
+
+1.$.extend($.easing, { ... });
+2.This adds custom easing functions to jQuery's $.easing object.
+3.Some key easing functions are defined here:
+4.Key Easing Functions
+
+Quad (Quadratic):
+
+1.easeInQuad: Accelerates from zero velocity.
+2.easeOutQuad: Decelerates to zero velocity.
+3.easeInOutQuad: Accelerates until halfway, then decelerates.
+Cubic:
+
+1.easeInCubic: Accelerates from zero velocity.
+2.easeOutCubic: Decelerates to zero velocity.
+3.easeInOutCubic: Accelerates until halfway, then decelerates.
+
+Bounce:
+
+1.easeOutBounce: Bounces at the end of the animation.
+2.easeInBounce: Starts by bouncing.
+3.easeInOutBounce: Bounces at both the start and the end of the animation.
