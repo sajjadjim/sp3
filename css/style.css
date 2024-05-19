@@ -177,20 +177,19 @@ a:focus {
     padding: 10px 10px 8px 10px;
     color: #ffffff;
 }
-
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     background: rgba(256, 256, 256, .1);
     transition: none;
 }
-
+/*********** Upper Page Drop down and then page color change and drop down menue bar *****/
 .navbar .dropdown-menu {
     margin-top: 0;
     border: 0;
     border-radius: 0;
     background: #f8f9fa;
 }
-
+/************ Transparent meneu part ***********/
 @media (min-width: 992px) {
     .navbar {
         position: absolute;
@@ -213,7 +212,7 @@ a:focus {
         text-transform: uppercase;
     }
 }
-
+/*********** End Transparent part ************/
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
@@ -223,17 +222,17 @@ a:focus {
     .navbar a.nav-link {
         padding: 5px;
     }
-    
+ /*************** Drop down Box Color *************/   
     .navbar .dropdown-menu {
         box-shadow: none;
     }
 }
 
 
-/*******************************/
-/********** Hero CSS ***********/
-/*******************************/
-.hero {
+/******************************************************/
+/********** Index Page OLD AGe content Down  CSS Code ***********/
+/******************************************************/
+.OLD-age-content {
     position: relative;
     width: 100%;
     margin-bottom: 45px;
@@ -241,22 +240,20 @@ a:focus {
     background: #D5B981;
     overflow: hidden;
 }
-
-.hero .container-fluid {
+.OLD-age-content .container-fluid {
     padding: 0;
 }
 
-.hero .hero-image {
+.OLD-age-content .OLD-age-content-image {
     position: relative;
     text-align: right;
 }
-
-.hero .hero-image img {
+.OLD-age-content .OLD-age-content-image img {
     max-width: 80%;
     max-height: 80%;
 }
 
-.hero .hero-text {
+.OLD-age-content .OLD-age-content-text {
     position: relative;
     padding-left: 75px;
     height: calc(100vh - 60px);
@@ -266,20 +263,20 @@ a:focus {
     flex-direction: column;
 }
 
-.hero .hero-text h1 {
+.OLD-age-content .OLD-age-content-text h1 {
     color: #1d2434;
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-.hero .hero-text p {
+.OLD-age-content .OLD-age-content-text p {
     color: #1d2434;
     font-size: 18px;
     margin-bottom: 25px;
 }
 
-.hero .hero-text .btn {
+.OLD-age-content .OLD-age-content-text .btn {
     padding: 15px 30px;
     font-size: 16px;
     font-weight: 600;
@@ -291,12 +288,17 @@ a:focus {
     transition: .3s;
 }
 
-.hero .hero-text .btn:hover {
+.OLD-age-content.OLD-age-content-text .btn:hover {
     color: #D5B981;
     background: #1d2434;
 }
 
-.hero .btn-play {
+/****************************************************************************/
+/******************************* Play Button CSS Style *********************/
+/***************************************************************************/
+
+/*********** Create a White button Here CSS ****************/
+.OLD-age-content .btn-play {
     position: absolute;
     z-index: 1;
     top: 80%;
@@ -311,8 +313,8 @@ a:focus {
     outline: none;
     padding: 18px 20px 18px 28px;
 }
-
-.hero .btn-play:before {
+/**************** End of Button ******************/
+.OLD-age-content .btn-play:before {
     content: "";
     position: absolute;
     z-index: 0;
@@ -326,8 +328,8 @@ a:focus {
     border-radius: 50%;
     animation: pulse-border 1500ms ease-out infinite;
 }
-
-.hero .btn-play:after {
+/*************** Black color of button end of code *****************/
+.OLD-age-content .btn-play:after {
     content: "";
     position: absolute;
     z-index: 1;
@@ -342,19 +344,19 @@ a:focus {
     transition: all 200ms;
 }
 
-.hero .btn-play:hover:after {
+.OLD-age-content .btn-play:hover:after {
     background-color: darken(#1D2434, 10%);
 }
 
-.hero .btn-play img {
+.OLD-age-content .btn-play img {
     position: relative;
     z-index: 3;
     max-width: 100%;
     width: auto;
     height: auto;
 }
-
-.hero .btn-play span {
+/********************** White tri-angle position in button ***************/
+.OLD-age-content .btn-play span {
     display: block;
     position: relative;
     z-index: 3;
@@ -364,7 +366,7 @@ a:focus {
     border-top: 22px solid transparent;
     border-bottom: 22px solid transparent;
 }
-
+/********************* Effect add Part  in Button ******************/
 @keyframes pulse-border {
   0% {
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
@@ -375,7 +377,7 @@ a:focus {
     opacity: 0;
   }
 }
-
+////************
 #videoModal .modal-dialog {
     position: relative;
     max-width: 800px;
@@ -397,21 +399,41 @@ a:focus {
     color: #ffffff;
     opacity: 1;
 }
-
+************////
 @media (max-width: 991.98px) {
-    .hero .hero-text {
+    .OLD-age-content .OLD-age-content-text {
         padding-left: 15px;
     }
     
-    .hero .hero-text h1 {
+    .OLD-age-content .OLD-age-content-text h1 {
         font-size: 35px;
     }
     
-    .hero .hero-text p {
+    .OLD-age-content .OLD-age-content-text p {
         font-size: 16px;
     }
     
-    .hero .hero-text .btn {
+    .OLD-age-content .OLD-age-content-text .btn {
+        padding: 12px 30px;
+        font-size: 15px;
+        letter-spacing: 0;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .OLD-age-content .OLD-age-content-text {
+        padding-left: 15px;
+    }
+    
+    .OLD-age-content .OLD-age-content-text h1 {
+        font-size: 35px;
+    }
+    
+    .OLD-age-content .OLD-age-content-text p {
+        font-size: 16px;
+    }
+    
+    .OLD-age-content .OLD-age-content-text .btn {
         padding: 12px 30px;
         font-size: 15px;
         letter-spacing: 0;
@@ -419,16 +441,16 @@ a:focus {
 }
 
 @media (max-width: 767.98px) {
-    .hero .hero-text h1 {
+    .OLD-age-content .OLD-age-content-text h1 {
         font-size: 30px;
         font-weight: 600;
     }
     
-    .hero .hero-text p {
+    .OLD-age-content .OLD-age-content-text p {
         font-size: 14px;
     }
     
-    .hero .hero-text .btn {
+    .OLD-age-content .OLD-age-content-text.btn {
         padding: 10px 25px;
         font-size: 15px;
         font-weight: 400;
@@ -436,23 +458,25 @@ a:focus {
     }
 }
 
+
 @media (max-width: 575.98px) {
-    .hero .hero-text h1 {
+    .OLD-age-content .OLD-age-content-text h1 {
         font-size: 25px;
         font-weight: 600;
     }
     
-    .hero .hero-text p {
+    .OLD-age-content .OLD-age-content-text p {
         font-size: 14px;
     }
     
-    .hero .hero-text .btn {
+    .OLD-age-content .OLD-age-content-text .btn {
         padding: 8px 20px;
         font-size: 14px;
         font-weight: 400;
         letter-spacing: 0;
     }
 }
+
 
 
 /*******************************/
@@ -1395,3 +1419,20 @@ a:focus {
         text-align: center;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
