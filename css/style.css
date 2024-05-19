@@ -990,9 +990,111 @@ a:focus {
     font-weight: 300;
     margin: 0;
 }
-
-
 /************ Doctor Part CSS End *********************/
+
+
+/******************************************/
+/*********** Leatest Servise CSS **********/
+/*****************************************/
+.blog {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+}
+
+.blog .blog-carousel {
+    position: relative;
+    width: calc(100% + 30px);
+    left: -15px;
+    right: -15px;
+}
+
+.blog .blog-item {
+    position: relative;
+    margin: 0 15px;
+    background: rgba(29, 36, 52, .04);
+    overflow: hidden;
+}
+
+.blog .blog-page .blog-item {
+    margin: 0 0 30px 0;
+}
+
+.blog .blog-img {
+    position: relative;
+    width: 100%;
+}
+
+.blog .blog-img::after {
+    position: absolute;
+    content: "";
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    z-index: 1;
+}
+
+.blog .blog-img img {
+    width: 100%;
+}
+
+.blog .blog-meta {
+    position: relative;
+    padding: 20px 30px 12px 30px;
+}
+
+.blog .blog-meta * {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #797979;
+}
+
+.blog .blog-meta i {
+    margin: 0 2px 0 10px;
+}
+
+.blog .blog-meta i:first-child {
+    margin-left: 0;
+}
+
+.blog .blog-text {
+    position: relative;
+    padding: 0 30px 30px 30px;
+}
+
+.blog .blog-text h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.blog .blog-text p {
+    margin-bottom: 10px;
+}
+
+.blog .blog-item a.btn {
+    padding: 0;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1d2434;
+    transition: .3s;
+}
+
+.blog .blog-item a.btn i {
+    margin-left: 5px;
+}
+
+.blog .blog-item a.btn:hover {
+    color: #D5B981;
+}
+
+
 
 
 
