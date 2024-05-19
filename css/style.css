@@ -6,16 +6,9 @@ body {
     background: #ffffff;
     font-family: 'Open Sans', sans-serif;
 }
-
-h1,
-h2, 
-h3, 
-h4,
-h5, 
-h6 {
+h1,h2,h3,h4,h5,h6 {
     color: #1d2434;
 }
-
 a {
     color: #454545;
     transition: .3s;
@@ -28,7 +21,7 @@ a:focus {
     outline: none;
     text-decoration: none;
 }
-
+/***Upper Contact information and Servise summarry and Download Page Name-position Part style ***/
 .btn:focus,
 .form-control:focus {
     box-shadow: none;
@@ -38,6 +31,7 @@ a:focus {
     max-width: 1366px;
 }
 
+/************ Page Upper Button CSS **************/
 .back-to-top {
     position: fixed;
     display: none;
@@ -52,7 +46,6 @@ a:focus {
     transition: background 0.5s;
     z-index: 9;
 }
-
 .back-to-top:hover {
     background: #1d2434;
 }
@@ -66,7 +59,6 @@ a:focus {
     padding-top: 10px;
 }
 
-
 /**********************************/
 /********** Top Bar CSS ***********/
 /**********************************/
@@ -75,13 +67,11 @@ a:focus {
     height: 60px;
     background: #1d2434;
 }
-
 .top-bar .top-bar-left {
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
-
 .top-bar .top-bar-right {
     display: flex;
     align-items: center;
@@ -102,7 +92,7 @@ a:focus {
 .top-bar .text:last-child {
     border-right: 1px solid rgba(255, 255, 255, .15);
 }
-
+/************** Upper Line position show from Background write  ***********/
 .top-bar .text h2 {
     color: #eeeeee;
     font-weight: 600;
@@ -117,14 +107,13 @@ a:focus {
     font-weight: 400;
     margin: 0;
 }
-
 .top-bar .social {
     display: flex;
     height: 60px;
     font-size: 0;
     justify-content: flex-end;
 }
-
+/********* Social Media Effect and Position  ************/ 
 .top-bar .social a {
     display: flex;
     align-items: center;
@@ -151,7 +140,6 @@ a:focus {
     }
 }
 
-
 /**********************************/
 /*********** Nav Bar CSS **********/
 /**********************************/
@@ -160,14 +148,12 @@ a:focus {
     transition: .5s;
     z-index: 999;
 }
-
 .navbar.nav-sticky {
     position: fixed;
     top: 0;
     width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
 }
-
 .navbar .navbar-brand {
     margin: 0;
     color: #ffffff;
@@ -175,7 +161,6 @@ a:focus {
     line-height: 0px;
     font-weight: 600;
 }
-
 .navbar .navbar-brand span {
     font-weight: 800;
 }
